@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "498224791750",
+    "firebase_url": "https://educadigital-e6aae-default-rtdb.firebaseio.com",
+    "project_id": "educadigital-e6aae",
+    "storage_bucket": "educadigital-e6aae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498224791750:android:352fd9734a79b9829d97c7",
+        "android_client_info": {
+          "package_name": "com.canindevs.educadigital"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCZ_25Id_iuJ0Ouai3YxNSWlXtumy5fu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
