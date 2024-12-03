@@ -12,12 +12,15 @@ public class CreateUser : MonoBehaviour
     private DataBase _db;
     [SerializeField] private TMP_InputField email;
     [SerializeField] private TMP_InputField password;
+    private string _newCharacterId;
     void Start()
     {
         _db = new DataBase();
     }
     public void CreateNewUser() {
-        _db.writeNewUser(Guid.NewGuid().ToString(),null, email.text.ToString(), password.text.ToString());
+        _newCharacterId = Guid.NewGuid().ToString();
+        _db.writeNewCharacter(_newCharacterId,"white");
+        _db.writeNewUser(Guid.NewGuid().ToString(),null, email.text.ToString(), password.text.ToString(), 0, _newCharacterId);
         // Debug.Log(email.text);
     }
 
